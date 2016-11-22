@@ -1,0 +1,11 @@
+分类算法：
+
+决策树
+贝叶斯
+KNN
+基于规则
+神经网络
+SVM
+AdaBoosting
+半监督 co-training
+部分监督
