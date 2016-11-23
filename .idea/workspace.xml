@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f5903f-b235-477a-bc79-1c12bb231491" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mission1/DecisionTree/DecisionTree.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/任务一/DecisionTree/DecisionTree.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务一/adult.data.txt" afterPath="$PROJECT_DIR$/dataset/data1/adult.data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务一/adult.test.txt" afterPath="$PROJECT_DIR$/dataset/data1/adult.test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务一/desc.txt" afterPath="$PROJECT_DIR$/dataset/data1/desc.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务一/分析.txt" afterPath="$PROJECT_DIR$/dataset/data1/分析.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/1.csv" afterPath="$PROJECT_DIR$/dataset/data3/1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/10.csv" afterPath="$PROJECT_DIR$/dataset/data3/10.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/11.csv" afterPath="$PROJECT_DIR$/dataset/data3/11.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/12.csv" afterPath="$PROJECT_DIR$/dataset/data3/12.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/13.csv" afterPath="$PROJECT_DIR$/dataset/data3/13.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/14.csv" afterPath="$PROJECT_DIR$/dataset/data3/14.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/15.csv" afterPath="$PROJECT_DIR$/dataset/data3/15.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/2.csv" afterPath="$PROJECT_DIR$/dataset/data3/2.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/3.csv" afterPath="$PROJECT_DIR$/dataset/data3/3.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/4.csv" afterPath="$PROJECT_DIR$/dataset/data3/4.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/5.csv" afterPath="$PROJECT_DIR$/dataset/data3/5.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/6.csv" afterPath="$PROJECT_DIR$/dataset/data3/6.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/7.csv" afterPath="$PROJECT_DIR$/dataset/data3/7.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/8.csv" afterPath="$PROJECT_DIR$/dataset/data3/8.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/9.csv" afterPath="$PROJECT_DIR$/dataset/data3/9.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务三/desc.txt" afterPath="$PROJECT_DIR$/dataset/data3/desc.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务二/dataset1-label.dat" afterPath="$PROJECT_DIR$/dataset/data2/dataset1-label.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务二/dataset1.dat" afterPath="$PROJECT_DIR$/dataset/data2/dataset1.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务二/dataset2-label.dat" afterPath="$PROJECT_DIR$/dataset/data2/dataset2-label.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset/任务二/dataset2.dat" afterPath="$PROJECT_DIR$/dataset/data2/dataset2.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mission1/DecisionTree/DecisionTree.py" afterPath="$PROJECT_DIR$/mission1/DecisionTree/DecisionTree.py" />
     </list>
     <ignored path="PythonML.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +25,8 @@
       <file leaf-file-name="DecisionTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mission1/DecisionTree/DecisionTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
               </folding>
@@ -454,7 +428,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32526317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24105263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -555,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mission1/DecisionTree/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
           </folding>

@@ -107,9 +107,11 @@ for i, val in enumerate(y_predict):
 
 print 'total:', total
 print 'right: ', right
+print "right rate: ", float(right)/float(total)*100, "%"
 print 'false: ', false
+print 'false rate: ', float(false)/float(total)*100, "%"
 
-import pydotplus
-dot_data = tree.export_graphviz(clf, out_file=None)
-graph = pydotplus.graph_from_dot_data(dot_data)
-graph.write_pdf(r"tree.pdf")
+# import pydotplus
+# dot_data = tree.export_graphviz(clf, out_file=None)
+# graph = pydotplus.graph_from_dot_data(dot_data)
+# graph.write_pdf(r"tree.pdf")
