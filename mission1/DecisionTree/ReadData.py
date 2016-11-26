@@ -23,9 +23,9 @@ def read(path):
             labels.append(tokens[-1])
             data = [str(tk) for tk in tokens[:-1]]
 
-            data[0] = int(data[0])
+            data[0] = int(data[0]) / 10
             data[1] = attr1.index(data[1])
-            data[2] = int(data[2])
+            data[2] = int(data[2]) / 10000
             data[3] = attr3.index(data[3])
             data[4] = int(data[4])
             data[5] = attr5.index(data[5])
@@ -35,7 +35,7 @@ def read(path):
             data[9] = attr9.index(data[9])
             data[10] = int(data[10])
             data[11] = int(data[11])
-            data[12] = int(data[12])
+            data[12] = int(data[12]) / 10
             data[13] = attr13.index(data[13])
             datas.append(data)
 

@@ -5,7 +5,7 @@ from sklearn import tree
 train_path = r"../../dataset/data1/adult.data.txt"
 x_train, y_train = ReadData.read(train_path)
 
-test_path = r"../../dataset/data1/adult.data.txt"
+test_path = r"../../dataset/data1/adult.test.txt"
 x_test, y_test = ReadData.read(test_path)
 
 clf = tree.DecisionTreeClassifier()
