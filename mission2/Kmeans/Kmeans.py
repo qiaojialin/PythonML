@@ -1,22 +1,20 @@
 # -*- coding: utf-8 -*-
 import Read
 import math
+import random
 
 datas = Read.data(r"../../dataset/data2/dataset1.txt")
 labels = Read.label(r"../../dataset/data2/dataset1-label.txt")
 
-centers = []
-clusters = [[]]
-
 k = 15
+
+centers = random.sample(datas, k)
+clusters = [[]]
 
 
 def get_label(data):
     index = datas.index(data)
     return labels[index]
-
-for i in range(0, k):
-    centers.append(datas[i])
 
 
 for time in range(0, 50):
@@ -77,5 +75,5 @@ for m in range(0, k):
             max_num = all_label_nums[label]
     right += max_num
 
-right_rate = float(right) / float(total) * 100
-print "right rate:", right_rate, "%"
+right_rate = float(right) / float(total)
+print "right rate:", right_rate
