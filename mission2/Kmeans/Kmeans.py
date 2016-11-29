@@ -17,7 +17,7 @@ def get_label(data):
     return labels[index]
 
 
-for time in range(0, 50):
+for time in range(0, 100):
     print "time", time
 
     #清空clusters
@@ -25,7 +25,7 @@ for time in range(0, 50):
     for i in range(0, k):
         clusters.append([])
 
-    flag = False
+
     #add each point to one cluster
     for p in range(0, len(datas)):
         data = datas[p]
@@ -38,20 +38,21 @@ for time in range(0, 50):
                 min_index = j
         clusters[min_index].append(data)
 
+    flag = False
     #update each cluster's center point
     for m in range(0, k):
-        old_center = centers[m]
-        new_center = centers[m]
-        min_dis = float("inf")
-        for n in range(0, len(clusters[m])):
-            all_dis = float(0)
-            for point in clusters[m]:
-                all_dis += math.sqrt(math.pow(clusters[m][n][0] - point[0], 2) + math.pow(clusters[m][n][1] - point[1], 2))
-            if all_dis < min_dis:
-                min_dis = all_dis
-                new_center = clusters[m][n]
-        if old_center != new_center:
-            centers[m] = new_center
+        old_center = centers[m][:]
+        new_center = centers[m][:]
+        all_x = 0
+        all_y = 0
+        for p in clusters[m]:
+            all_x += p[0]
+            all_y += p[1]
+        new_center[0] = all_x / len(clusters[m])
+        new_center[1] = all_y / len(clusters[m])
+
+        if new_center != old_center:
+            centers[m] = new_center[:]
             flag = True
     if not flag:
         break
