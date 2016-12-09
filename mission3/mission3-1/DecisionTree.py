@@ -4,11 +4,11 @@ import numpy as np
 from sklearn import tree
 
 train_path = r"../../dataset/data3/train/"
-x_train, y_train = ReadData.read1(train_path)
+x_train, y_train = ReadData.read1(train_path,52)
 print x_train.shape
 
 test_path = r"../../dataset/data3/test/"
-x_test, y_test = ReadData.read1(test_path)
+x_test, y_test = ReadData.read1(test_path,52)
 print np.unique(y_test)
 
 clf = tree.DecisionTreeClassifier()

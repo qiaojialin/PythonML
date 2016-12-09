@@ -1,13 +1,14 @@
+#####40dimension best
 from sklearn.tree import DecisionTreeRegressor  
 from sklearn.ensemble import RandomForestClassifier  
 import numpy as np  
 import ReadData
    
 train_path = r"../../dataset/data3/train/"
-x_train, y_train = ReadData.read1(train_path)
+x_train, y_train = ReadData.read1(train_path, 52)
 
 test_path = r"../../dataset/data3/test/"
-x_test, y_test = ReadData.read1(test_path)
+x_test, y_test = ReadData.read1(test_path,52)
 print np.unique(y_test)
 
 train_filename = r"../../data/df_train.csv"
