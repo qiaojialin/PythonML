@@ -40,14 +40,15 @@ for i, val in enumerate(y_predict):
 		Y1 = temp
 	else:
 		Y1 = np.vstack((Y1,temp))
-	print "Y1.shape: ", Y1.shape
+	
 Y1 = Y1.T
-X1 = range(0, Y1.shape[0])
+print "Y1[0].shape: ", Y1[0].shape
+X1 = range(0, Y1[0].shape[0])
 Fig1 = plt.figure(figsize=(8,4))                      # Create a `figure' instance
 Ax1 = Fig1.add_subplot(211)               # Create a `axes' instance in the figure
-Ax1.plot(X1, Y1)
+Ax1.plot(X1, Y1[0])
 Ax2 = Fig1.add_subplot(212)
-Ax2.plot(X1, y_test[0:Y1.shape[0]])
+Ax2.plot(X1, y_test[0:Y1[0].shape[0]])
 Fig1.savefig("comprerfc.pdf")
 
 
