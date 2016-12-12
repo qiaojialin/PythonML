@@ -5,8 +5,8 @@ def data(path):
     with open(path) as file:
         for line in file:
             data = line.strip().split('    ')
-            data[0] = int(data[0])
-            data[1] = int(data[1])
+            data[0] = float(data[0])
+            data[1] = float(data[1])
             dataset.append(data)
     return dataset
 
